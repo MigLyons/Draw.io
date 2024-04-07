@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T01:26:48.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="bC57QN6v_35Pz9awuG7M" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T01:30:39.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="sMGy1NE0pb0M01EQAGLc" version="24.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="3000" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -706,6 +706,9 @@
         </mxCell>
         <mxCell id="mXbjp-5B4UFYUWA8ZSkY-189" value="&lt;ol&gt;&lt;li&gt;PURCHASE-EVENT is not to be used as its own type; it exists to reduce redundancy for TICKET and BID&lt;br&gt;&lt;/li&gt;&lt;li&gt;the &quot;-EVENT&#39; part of each table exists to make comparisons between different fundraising events possible, and to keep records separate.&lt;/li&gt;&lt;li&gt;COSTS includes all vendors, but also includes things such as permits, insurance, volunteer compensation, etc. &lt;br&gt;&lt;/li&gt;&lt;li&gt;VOLUNTEER exists for purely tracking and auditing purposes; Volunteer.position will be relevant for role-based access control&lt;/li&gt;&lt;li&gt;TICKETs&amp;nbsp; will be grouped by ticket-event; this category will cover things like raffles, 50/50 pots, and the other random games that happen at fundraisers.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="1140" y="120" width="350" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="mXbjp-5B4UFYUWA8ZSkY-190" value="Assumptions" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="130" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T05:33:06.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="fmnxVsKk-A8ejGSFemSX" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T12:43:57.581Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="G8m1t0IGoMCpxfi1LPGa" version="24.2.3" type="github">
   <diagram name="Page-1" id="JWPP79yBpx-Rtv-s2Ma5">
-    <mxGraphModel dx="2503" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="771" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,8 +134,11 @@
         <mxCell id="tisiuNeUIjjeBoUYgNED-66" value="Value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="1250" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tisiuNeUIjjeBoUYgNED-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tisiuNeUIjjeBoUYgNED-68" target="tisiuNeUIjjeBoUYgNED-73">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="tisiuNeUIjjeBoUYgNED-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tisiuNeUIjjeBoUYgNED-68" target="tisiuNeUIjjeBoUYgNED-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tisiuNeUIjjeBoUYgNED-68" value="Donor_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" vertex="1" parent="1">
           <mxGeometry x="370" y="1250" width="100" height="40" as="geometry" />
@@ -149,7 +152,7 @@
         <mxCell id="tisiuNeUIjjeBoUYgNED-72" value="Donor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="90" y="1420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tisiuNeUIjjeBoUYgNED-73" value="&lt;u&gt;Name&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tisiuNeUIjjeBoUYgNED-73" value="Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1450" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tisiuNeUIjjeBoUYgNED-74" value="Address" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -225,7 +228,7 @@
         <mxCell id="tisiuNeUIjjeBoUYgNED-88" value="Donor_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" vertex="1" parent="1">
           <mxGeometry x="1460" y="290" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tisiuNeUIjjeBoUYgNED-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tisiuNeUIjjeBoUYgNED-89" target="tisiuNeUIjjeBoUYgNED-73">
+        <mxCell id="tisiuNeUIjjeBoUYgNED-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tisiuNeUIjjeBoUYgNED-89" target="tisiuNeUIjjeBoUYgNED-108">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="28.000000000000114" as="sourcePoint" />
             <mxPoint x="130" y="1560" as="targetPoint" />
@@ -233,7 +236,7 @@
               <mxPoint x="620" y="8" />
               <mxPoint x="30" y="8" />
               <mxPoint x="30" y="1530" />
-              <mxPoint x="120" y="1530" />
+              <mxPoint x="420" y="1530" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -260,6 +263,9 @@
         </mxCell>
         <mxCell id="tisiuNeUIjjeBoUYgNED-97" value="Attendee_Name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1660" y="778" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tisiuNeUIjjeBoUYgNED-108" value="&lt;u&gt;DonorId&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1450" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
